@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Color switching with mario and friends</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ruka">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <form class="color-switcher">
+            <fieldset class="color-container">
+                <legend class="no-visual">Color Themes</legend>
+                <label for="red" aria-label="red">
+                    <input class="red" type="radio" name="theme" id="red" checked>
+                </label>
+                <label for="green" aria-label="green">
+                    <input class="green" type="radio" name="theme" id="green">
+                </label>
+                <label for="pink" aria-label="pink">
+                    <input class="pink" type="radio" name="theme" id="pink">
+                </label>
+                <label for="yellow" aria-label="yellow">
+                    <input class="yellow" type="radio" name="theme" id="yellow">
+                </label>
+            </fieldset>
+        </form>
+        <h1><span class="no-wrap">Color Switching</span> with <span class="no-wrap">Mario and friends</span></h1>
+        <main>
+            <img src="./img/mario.png" width="200" alt="a picture of mario">
+            <section aria-labelledby="title">
+                <h2 id="title" class="title">Mario</h2>
+                <p class="text">Mario is a character created by the Japanese video game designer Shigeru Miyamoto. He is the title character of the Mario franchise and the mascot of the Japanese video game company Nintendo. Mario is an Italian plumber who resides in the Mushroom Kingdom with his younger twin brother, Luigi. Their adventures generally center on rescuing Princess Peach from the villain Bowser while using power-ups that give them different abilities.</p>
+            </section>
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>
